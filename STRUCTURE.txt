@@ -1,0 +1,48 @@
+# 📁 Struktur Folder Portfolio React
+
+```
+portfolio-react/
+│
+├── 📄 index-react.html          # Standalone HTML - Buka langsung di browser (No Build)
+├── 📄 index.html                # HTML untuk Vite (gunakan dengan npm run dev)
+├── 📄 main.jsx                  # Entry point React untuk Vite
+├── 📄 App.jsx                   # Root component
+├── 📄 Portfolio.jsx             # Main portfolio component
+│
+├── 📄 package.json              # Dependencies & scripts
+├── 📄 vite.config.js            # Vite configuration
+├── 📄 .gitignore                # Git ignore file
+│
+├── 📄 README.md                 # Dokumentasi utama
+├── 📄 SETUP-GUIDE.md            # Panduan setup lengkap
+├── 📄 STRUCTURE.txt             # File ini - Penjelasan struktur
+│
+└── 📁 img/                      # Folder untuk semua gambar
+    ├── 📄 README.md             # Panduan gambar yang dibutuhkan
+    ├── 🖼️ pp2.jpg               # [TAMBAHKAN] Foto profil
+    ├── 🖼️ projek.jpeg           # [TAMBAHKAN] Screenshot project 1
+    ├── 🖼️ projek2.jpeg          # [TAMBAHKAN] Screenshot project 2
+    ├── 🖼️ projek3.jpeg          # [TAMBAHKAN] Screenshot project 3
+    ├── 🖼️ projek4.jpeg          # [TAMBAHKAN] Screenshot project 4
+    ├── 🖼️ projek5.jpeg          # [TAMBAHKAN] Screenshot project 5
+    └── 🖼️ projek6.jpeg          # [TAMBAHKAN] Screenshot project 6
+```
+
+---
+
+## 🎯 Cara Menggunakan
+
+### Opsi 1: Standalone (Paling Mudah) ⭐
+1. Buka **index-react.html** di browser
+2. Done!
+
+### Opsi 2: Development Mode 🔧
+1. `npm install`
+2. `npm run dev`
+3. Buka http://localhost:5173/
+
+### Opsi 3: Production Build 🚀
+1. `npm run build`
+2. Upload folder `dist/` ke hosting
+
+Lihat **SETUP-GUIDE.md** untuk tutorial lengkap!
